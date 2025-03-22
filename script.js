@@ -20,7 +20,7 @@ const setError = (element , message) => {
     inputControl.classList.remove('success')
 }
 
-function validateInputs = () => {
+const validateInputs = () => {
     const usernameValue = username.value.trim();
     const emailValue = email.value.trim();
     const passwordValue = password2.value.trim();
